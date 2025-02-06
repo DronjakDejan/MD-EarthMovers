@@ -1,0 +1,13 @@
+# Dozvoli svim agentima da pristupaju svemu, osim određenim direktorijumima
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Allow: /public/
+Allow: /images/
+
+# Specifična pravila za Googlebot
+User-agent: Googlebot
+Disallow: /no-google/
+
+# Lokacija Sitemap fajla
+Sitemap: https://www.example.com/sitemap.xml

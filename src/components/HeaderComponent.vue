@@ -35,6 +35,7 @@
         class="logo"
         height="170"
         src="/src/assets/images/mdEarthLogo5.png"
+        alt="logo"
       ></v-img>
     </v-col>
   </v-row>
@@ -73,6 +74,7 @@
         class="logo"
         max-height="100"
         src="/src/assets/images/mdEarthLogo5.png"
+        alt="logo"
       ></v-img>
     </v-col>
   </v-row>
@@ -112,5 +114,6 @@ const backToTop = () => {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100vw;
 }
 </style>

@@ -126,7 +126,7 @@
           <v-img
             src="/src/assets/images/Takeuchi1.png"
             :width="500"
-            alt="Opis slike"
+            alt="Excavator"
             class="rounded-images"
           ></v-img>
         </v-col>
@@ -141,7 +141,7 @@
           <v-img
             src="/src/assets/images/slika20.jpeg"
             :width="400"
-            alt="Opis slike"
+            alt="Kanalizacija Lazarevac"
             lazy
             class="rounded-image"
           ></v-img>
@@ -186,7 +186,7 @@
           <v-img
             src="/src/assets/images/slika17.jpeg"
             :width="400"
-            alt="Slika sahte"
+            alt="Slika sahte Boljevac"
             lazy
             class="rounded-image"
           ></v-img>

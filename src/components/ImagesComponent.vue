@@ -26,6 +26,7 @@
             aspect-ratio="1"
             class="bg-grey-lighten-2"
             cover
+            alt="gallery-images"
           >
             <template v-slot:placeholder>
               <v-row align="center" class="fill-height ma-0" justify="center">
@@ -44,6 +45,7 @@
           :aspect-ratio="1"
           class="elevation-5"
           cover
+          alt="Cover Image"
         />
       </v-dialog>
     </v-card>
