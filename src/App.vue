@@ -34,7 +34,7 @@ useHead({
       }),
     },
   ],
-  title: "MD Earth Movers - Građevinska Oprema i Usluge",
+  title: "MD Earth Movers - Građevinske usluge",
   meta: [
     {
       name: "description",
@@ -48,7 +48,7 @@ useHead({
     },
     {
       property: "og:title",
-      content: "MD Earth Movers - Građevinska Oprema i Usluge",
+      content: "MD Earth Movers - Građevinske usluge",
     },
     {
       property: "og:description",

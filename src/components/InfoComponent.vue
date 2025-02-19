@@ -131,45 +131,13 @@
           ></v-img>
         </v-col>
       </v-row>
-      <v-divider
-        :thickness="3"
-        class="border-opacity-75 ma-5"
-        color="warning"
-      ></v-divider>
-      <v-row class="align-center jusitfy-center">
-        <v-col cols="12" md="4">
-          <v-img
-            src="/src/assets/images/slika20.jpeg"
-            :width="400"
-            alt="Kanalizacija Lazarevac"
-            lazy
-            class="rounded-image"
-          ></v-img>
-        </v-col>
-
-        <v-col cols="12" md="6">
-          <div class="text-content">
-            <h3>
-              Izgradnja kanalizacione mreže u naselju Gornji grad, opština
-              Lazarevac
-            </h3>
-            <p>
-              – Ovaj projekat obuhvata sve faze izgradnje savremenog
-              kanalizacionog sistema, uključujući iskopavanje rovova,
-              postavljanje cevovoda i obezbeđivanje funkcionalnosti mreže za
-              sigurno i efikasno odvođenje otpadnih voda. Naš tim stručnjaka
-              posvećen je svakom detalju kako bi se obezbedila dugoročna
-              održivost i zaštita životne sredine.
-            </p>
-          </div>
+      <v-divider :thickness="3" class="border-opacity-25 ma-5"></v-divider>
+      <v-row>
+        <v-col>
+          <h1>Naši projekti:</h1>
         </v-col>
       </v-row>
-      <v-divider
-        :thickness="3"
-        class="border-opacity-75 ma-5"
-        color="warning"
-      ></v-divider>
-      <v-row class="align-center">
+      <v-row class="align-center jusitfy-center semi-transparent-bg">
         <v-col cols="12" md="6">
           <div class="text-content">
             <h3>Izgradnja kanalizacione mreže u opštini Boljevac</h3>
@@ -192,11 +160,35 @@
           ></v-img>
         </v-col>
       </v-row>
-      <v-divider
-        :thickness="3"
-        class="border-opacity-75 ma-5"
-        color="warning"
-      ></v-divider>
+
+      <v-row class="align-center jusitfy-center mt-6 semi-transparent-bg">
+        <v-col cols="12" md="6">
+          <div class="text-content">
+            <h3>
+              Izgradnja kanalizacione mreže u naselju Gornji grad, opština
+              Lazarevac
+            </h3>
+            <p>
+              – Ovaj projekat obuhvata sve faze izgradnje savremenog
+              kanalizacionog sistema, uključujući iskopavanje rovova,
+              postavljanje cevovoda i obezbeđivanje funkcionalnosti mreže za
+              sigurno i efikasno odvođenje otpadnih voda. Naš tim stručnjaka
+              posvećen je svakom detalju kako bi se obezbedila dugoročna
+              održivost i zaštita životne sredine.
+            </p>
+          </div>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-img
+            src="/src/assets/images/slika20.jpeg"
+            :width="400"
+            alt="Kanalizacija Lazarevac"
+            lazy
+            class="rounded-image"
+          ></v-img>
+        </v-col>
+      </v-row>
+      <v-divider :thickness="3" class="border-opacity-25 ma-5"></v-divider>
     </v-card>
   </v-container>
 </template>
@@ -222,5 +214,9 @@ p {
   font-size: 1.2rem;
   line-height: 1.6;
   text-align: justify;
+}
+.semi-transparent-bg {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <v-row class="background align-center flex-column d-none d-lg-flex d-md-flex">
     <v-col cols="12" lg="4" md="4" class="d-none d-md-flex justify-start">
-      <div class="d-flex justify-space-around w-100">
+      <div class="d-flex justify-space-around mt-5 w-100">
         <v-btn
           @click="scrollTo('images')"
           variant="text"
@@ -111,9 +111,10 @@ const backToTop = () => {
 }
 .background {
   background-image: url(../assets/images/WorkField.jpg);
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  height: 100vh;
+  background-position: center fixed;
+  height: calc(100vh + 50px);
   width: 100vw;
 }
 </style>
