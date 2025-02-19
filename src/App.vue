@@ -10,6 +10,9 @@
 import { useHead } from "@vueuse/head";
 
 useHead({
+  htmlAttrs: {
+    lang: "sr",
+  },
   script: [
     {
       type: "application/ld+json",
@@ -19,17 +22,22 @@ useHead({
         name: "MD Earth Movers",
         url: "https://md-earthmovers.com",
         logo: "https://md-earthmovers.com/logo.png",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+381613194025",
-          contactType: "customer service",
-        },
+        contactPoint: [
+          {
+            "@type": "ContactPoint",
+            telephone: "+381613194025",
+            contactType: "customer service",
+            availableLanguage: ["Serbian", "English"],
+            areaServed: "RS",
+          },
+        ],
         description:
           "MD Earth Movers - Izgradnja fekalne kanalizacione mreže, vodovoda i optičkih kablova.",
         address: {
           "@type": "PostalAddress",
-          addressLocality: "Srbija",
+          addressLocality: "Beograd",
           addressCountry: "RS",
+          postalCode: "11000",
         },
       }),
     },
@@ -74,10 +82,25 @@ useHead({
   ],
 });
 </script>
-<style >
+<style>
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 1024px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
 </style>

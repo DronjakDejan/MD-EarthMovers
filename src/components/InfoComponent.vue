@@ -15,7 +15,11 @@
                 Izgradnja fekalne kanalizacione mreže, vodovodnih instalacija i
                 optičkih kablova – Profesionalni radovi za vašu infrastrukturu
               </h1>
-
+              <v-divider
+                :thickness="1"
+                class="border-opacity-75 ma-5"
+                color="warning"
+              ></v-divider>
               <p>
                 Naša firma je lider u
                 <strong>izgradnji fekalne kanalizacione mreže</strong>, kao i u
@@ -141,13 +145,15 @@
         <v-col cols="12" md="6">
           <div class="text-content">
             <h3>Izgradnja kanalizacione mreže u opštini Boljevac</h3>
-            <p>
-              – Ovaj projekat obuhvata kompletnu izgradnju kanalizacionog
-              sistema, uključujući iskopavanje, postavljanje cevovoda i
-              povezivanje na postojeću infrastrukturu. Naš cilj je pružiti
-              efikasno rešenje za odvodnju otpadnih voda, unapređujući komunalnu
-              infrastrukturu i doprinosimo očuvanju životne sredine.
-            </p>
+            <ul>
+              <li>
+                Ovaj projekat obuhvata kompletnu izgradnju kanalizacionog
+                sistema, uključujući iskopavanje, postavljanje cevovoda i
+                povezivanje na postojeću infrastrukturu. Naš cilj je pružiti
+                efikasno rešenje za odvodnju otpadnih voda, unapređujući
+                komunalnu infrastrukturu i doprinosimo očuvanju životne sredine.
+              </li>
+            </ul>
           </div>
         </v-col>
         <v-col cols="12" md="4">
@@ -161,21 +167,25 @@
         </v-col>
       </v-row>
 
-      <v-row class="align-center jusitfy-center mt-6 semi-transparent-bg">
+      <v-row
+        class="align-center jusitfy-center mt-6 semi-transparent-bg no-gutters"
+      >
         <v-col cols="12" md="6">
           <div class="text-content">
             <h3>
               Izgradnja kanalizacione mreže u naselju Gornji grad, opština
               Lazarevac
             </h3>
-            <p>
-              – Ovaj projekat obuhvata sve faze izgradnje savremenog
-              kanalizacionog sistema, uključujući iskopavanje rovova,
-              postavljanje cevovoda i obezbeđivanje funkcionalnosti mreže za
-              sigurno i efikasno odvođenje otpadnih voda. Naš tim stručnjaka
-              posvećen je svakom detalju kako bi se obezbedila dugoročna
-              održivost i zaštita životne sredine.
-            </p>
+            <ul>
+              <li>
+                Ovaj projekat obuhvata sve faze izgradnje savremenog
+                kanalizacionog sistema, uključujući iskopavanje rovova,
+                postavljanje cevovoda i obezbeđivanje funkcionalnosti mreže za
+                sigurno i efikasno odvođenje otpadnih voda. Naš tim stručnjaka
+                posvećen je svakom detalju kako bi se obezbedila dugoročna
+                održivost i zaštita životne sredine.
+              </li>
+            </ul>
           </div>
         </v-col>
         <v-col cols="12" md="4">

@@ -1,41 +1,52 @@
 <template>
-  <div class="background">
-    <AnimationComponent v-if="isLoading" />
-
-    <v-row class="align-center" justify="center">
+  <v-container fluid class="pa-0 ma-0">
+    <v-row no-gutters>
       <v-col>
-        <HeaderComponent :scrollToSection="scrollToSection"></HeaderComponent>
-      </v-col>
-    </v-row>
+        <div class="background">
+          <AnimationComponent v-if="isLoading" />
 
-    <v-row justify="center">
-      <v-col cols="12">
-        <InfoComponent class="section" ref="infoPartRef"></InfoComponent>
-      </v-col>
-    </v-row>
+          <v-row class="align-center" justify="center">
+            <v-col>
+              <HeaderComponent
+                :scrollToSection="scrollToSection"
+              ></HeaderComponent>
+            </v-col>
+          </v-row>
 
-    <v-row justify="center">
-      <v-col cols="12">
-        <ImagesComponent class="section" ref="imagesPartRef"></ImagesComponent>
+          <v-row class="align-center" justify="center">
+            <v-col cols="12">
+              <InfoComponent class="section" ref="infoPartRef"></InfoComponent>
+            </v-col>
+          </v-row>
+
+          <v-row class="align-center" justify="center">
+            <v-col cols="12">
+              <ImagesComponent
+                class="section"
+                ref="imagesPartRef"
+              ></ImagesComponent>
+            </v-col>
+          </v-row>
+          <v-row class="align-center" justify="center">
+            <v-col cols="12">
+              <ContactComponent
+                class="section"
+                ref="contactPartRef"
+                @scrollToTop="scrollToTop"
+              ></ContactComponent>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col>
+              <footer>
+                <AppFooter />
+              </footer>
+            </v-col>
+          </v-row>
+        </div>
       </v-col>
     </v-row>
-    <v-row justify="center">
-      <v-col cols="12">
-        <ContactComponent
-          class="section"
-          ref="contactPartRef"
-          @scrollToTop="scrollToTop"
-        ></ContactComponent>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <footer>
-          <AppFooter />
-        </footer>
-      </v-col>
-    </v-row>
-  </div>
+  </v-container>
 </template>
 
 <script setup>
@@ -84,6 +95,7 @@ onMounted(() => {
 .background {
   background: linear-gradient(#fea201 0%, #ffffff 50%);
   height: 100%;
+  width: 100%;
   color: white;
 }
 
