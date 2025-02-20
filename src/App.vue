@@ -20,19 +20,19 @@ useHead({
         "@context": "https://schema.org",
         "@type": "Organization",
         name: "MD Earth Movers",
-        url: "https://md-earthmovers.com",
-        logo: "https://md-earthmovers.com/logo.png",
+        url: "//https://mdearthmovers.rs",
+        logo: "https://mdearthmovers.rs/logo.png",
         contactPoint: [
           {
             "@type": "ContactPoint",
             telephone: "+381613194025",
             contactType: "customer service",
-            availableLanguage: ["Serbian", "English"],
+            availableLanguage: ["Serbian"],
             areaServed: "RS",
           },
         ],
         description:
-          "MD Earth Movers - Izgradnja fekalne kanalizacione mreže, vodovoda i optičkih kablova.",
+          "MD Earth Movers - Izgradnja fekalne kanalizacione mreže, vodovodnih instalacija i optičkih kablova.",
         address: {
           "@type": "PostalAddress",
           addressLocality: "Beograd",
@@ -52,7 +52,7 @@ useHead({
     {
       name: "keywords",
       content:
-        "građevinska firma, fekalna kanalizacija, vodovodne instalacije, optički kablovi, MD Earth Movers, iskopavanje, građevinski radovi",
+        "MD Earth movers, građevinska firma, fekalna kanalizacija, vodovodne instalacije, optički kablovi, MD Earth Movers, iskopavanje, građevinski radovi",
     },
     {
       property: "og:title",
@@ -65,11 +65,11 @@ useHead({
     },
     {
       property: "og:image",
-      content: "/images/mdEarth.jpeg",
+      content: "/assets/images/mdEarth.jpeg",
     },
     {
       property: "og:url",
-      content: "https://md-earthmovers.com",
+      content: "https://mdearthmovers.rs",
     },
     {
       name: "robots",
