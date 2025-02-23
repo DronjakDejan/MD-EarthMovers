@@ -1,7 +1,7 @@
 <template>
   <v-container class="contact-container" fluid>
     <v-card elevation="0" class="contact-card-wrapper">
-      <v-card-title primary-title class="text-md-h2 text-center">
+      <v-card-title  primary-title class="text-md-h2 text-center">
         Kontakt
       </v-card-title>
 
@@ -32,8 +32,8 @@
               E:mail
             </v-card-title>
             <v-card-text>
-              <p>office@mdearthmovers.com</p>
-              <p>sr@mdearthmovers.com</p>
+              <p translate="no"> office@mdearthmovers.com</p>
+              <p translate="no">sr@mdearthmovers.com</p>
               <v-btn
                 variant="text"
                 :href="'mailto:office@mdearthmovers.com'"
