@@ -76,6 +76,7 @@ import slika20 from "@/assets/images/slika21.jpeg";
 import slika21 from "@/assets/images/slika22.jpeg";
 import slika22 from "@/assets/images/slika17.jpeg";
 import slika23 from "@/assets/images/slika23.jpeg";
+import slika24 from "@/assets/images/slika24.jpeg";
 
 import { ref } from "vue";
 
@@ -103,6 +104,7 @@ const images = ref([
   slika21,
   slika22,
   slika23,
+  slika24,
 ]);
 const selectedImage = ref("");
 
