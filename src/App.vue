@@ -20,8 +20,8 @@ useHead({
         "@context": "https://schema.org",
         "@type": "Organization",
         name: "MD Earth Movers",
-        url: "//https://mdearthmovers.rs",
-        logo: "https://mdearthmovers.rs/favicon/favicon.png",
+        url: "https://mdearthmovers.rs",
+        logo: "https://mdearthmovers.rs/images/mdEarth.jpeg",
         contactPoint: [
           {
             "@type": "ContactPoint",
