@@ -21,7 +21,7 @@ useHead({
         "@type": "Organization",
         name: "MD Earth Movers",
         url: "//https://mdearthmovers.rs",
-        logo: "https://mdearthmovers.rs/logo.png",
+        logo: "https://mdearthmovers.rs/favicon/favicon.png",
         contactPoint: [
           {
             "@type": "ContactPoint",
@@ -65,7 +65,7 @@ useHead({
     },
     {
       property: "og:image",
-      content: "/assets/images/mdEarth.jpeg",
+      content: "https://mdearthmovers.rs/images/mdEarth.jpeg",
     },
     {
       property: "og:url",
