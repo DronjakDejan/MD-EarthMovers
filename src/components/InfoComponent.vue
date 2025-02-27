@@ -141,7 +141,7 @@
           <h1>Naši projekti:</h1>
         </v-col>
       </v-row>
-      <v-row class="align-center jusitfy-center semi-transparent-bg">
+      <v-row class="align-center justify-center semi-transparent-bg">
         <v-col cols="12" md="6">
           <div class="text-content">
             <h3>Izgradnja kanalizacione mreže u opštini Boljevac</h3>
@@ -168,7 +168,7 @@
       </v-row>
 
       <v-row
-        class="align-center jusitfy-center mt-6 semi-transparent-bg no-gutters"
+        class="align-center justify-center mt-6 semi-transparent-bg no-gutters"
       >
         <v-col cols="12" md="6">
           <div class="text-content">

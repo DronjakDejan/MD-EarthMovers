@@ -79,6 +79,23 @@ useHead({
       property: "og:type",
       content: "website",
     },
+    {
+      property: "og:image:type",
+      content: "image/jpeg",
+    },
+    {
+      property: "og:image:width",
+      content: "1200",
+    },
+    {
+      property: "og:image:height",
+      content: "630",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      href: "/images/mdEarth.jpeg",
+    },
   ],
 });
 </script>
